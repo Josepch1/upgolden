@@ -1,0 +1,10 @@
+.produto{
+    background: blue;
+    color:aliceblue;
+    display:inline;
+}
+#container{
+    background: #ccc;
+    display: flex;
+    padding: 10px;
+}

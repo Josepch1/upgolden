@@ -1,0 +1,65 @@
+*{
+    background:black
+}
+header{
+    padding-bottom: 5px;
+}
+dois{
+    margin: 0 150px;
+}
+.um, .dois, .tres{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+.logo { 
+    width: 520px;
+    margin: 0 auto;
+    display: block;
+}
+.beneficio{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+.links{
+    color:aqua;
+}
+.titulo1 {
+    color:  gold;
+    font-size: 47px;
+    text-align: center; 
+}
+hr{
+    height: 3px;
+    background-color: gold;
+    border: none;
+}
+.divisor{
+    height: 0,5px !important;
+    background-color: rgba(204, 204, 204, 0.116) !important;
+}
+.produto{
+    background: black;
+    color: white;
+    display:inline;
+    text-align: center;    
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+img {
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+}
+.container1{
+display: flex;
+align-items: baseline;
+justify-content: space-evenly;
+flex-wrap: wrap
+}
