@@ -4,40 +4,41 @@
 header{
     padding-bottom: 5px;
 }
-.header-subtitle-2 {
-    margin: 0 50px 0 50px;
+.header-title {
+    color:  gold;
+    font-size: 47px;
+    text-align: center; 
+}
+.header-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .header-subtitle{
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 40px;
 }
+.header-subtitle-2 {
+    margin: 0 50px 0 50px;
+}
+.divisor{
+    height: 0,5px !important;
+    background-color: rgba(204, 204, 204, 0.116) !important;
+}
 .logo { 
     width: 520px;
     margin: 0 auto;
     display: block;
 }
-.hearder-subtitle{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin-bottom: 40px;
-}
 .links{
     color:aqua;
-}
-.header-title {
-    color:  gold;
-    font-size: 47px;
-    text-align: center; 
 }
 hr{
     height: 3px;
     background-color: gold;
     border: none;
-}
-.divisor{
-    height: 0,5px !important;
-    background-color: rgba(204, 204, 204, 0.116) !important;
 }
 .produto{
     background: black;
@@ -52,17 +53,12 @@ hr{
     justify-content: space-between;
     flex-wrap: wrap
 }
-img {
+.produto-img {
     max-width: 100%;
     width: 400px;
     height: 400px;
 }
-.container-header{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-    flex-wrap: wrap
-}
+
 .page-title {
     color: white;
     text-align: center;
