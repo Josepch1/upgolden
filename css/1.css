@@ -4,10 +4,10 @@
 header{
     padding-bottom: 5px;
 }
-.dois {
+.header-subtitle-2 {
     margin: 0 50px 0 50px;
 }
-.um, .dois, .tres{
+.header-subtitle{
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 40px;
@@ -17,7 +17,7 @@ header{
     margin: 0 auto;
     display: block;
 }
-.beneficio{
+.hearder-subtitle{
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 40px;
@@ -25,7 +25,7 @@ header{
 .links{
     color:aqua;
 }
-.titulo1 {
+.header-title {
     color:  gold;
     font-size: 47px;
     text-align: center; 
@@ -57,9 +57,13 @@ img {
     width: 400px;
     height: 400px;
 }
-.container1{
-display: flex;
-align-items: baseline;
-justify-content: space-evenly;
-flex-wrap: wrap
+.container-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+.page-title {
+    color: white;
+    text-align: center;
 }
