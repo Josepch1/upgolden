@@ -4,8 +4,8 @@
 header{
     padding-bottom: 5px;
 }
-dois{
-    margin: 0 150px;
+.dois {
+    margin: 0 50px 0 50px;
 }
 .um, .dois, .tres{
     text-align: center;
