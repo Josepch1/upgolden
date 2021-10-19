@@ -14,6 +14,9 @@ header{
     align-items: baseline;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 .header-subtitle{
     text-align: center;
@@ -28,12 +31,26 @@ header{
     background-color: rgba(204, 204, 204, 0.116) !important;
 }
 .logo { 
-    width: 520px;
+    max-width: 100%;
+    width: 600px;
+    height: 600px;
     margin: 0 auto;
     display: block;
 }
+.links:hover{
+    border-style: outset;
+    border-color: gold;
+    color: gold;
+    padding: 4px
+}
 .links{
-    color:aqua;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-links{
+    padding-bottom: 25px;
 }
 hr{
     height: 3px;
