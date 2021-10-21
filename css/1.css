@@ -35,7 +35,6 @@ header{
     width: 600px;
     height: 600px;
     margin: 0 auto;
-    display: block;
 }
 @media (max-width: 768px){
     .header-container{
@@ -90,4 +89,16 @@ hr{
 .page-title {
     color: white;
     text-align: center;
+}
+
+.footer-span{
+    text-align: center;
+}
+.footer-span a{
+    text-decoration: none;
+    color: #939393;
+    font-size: 15px;
+}
+.footer-span a:hover {
+    text-decoration: underline;
 }
