@@ -100,7 +100,7 @@ hr{
 .footer-text{
     text-align: center;
 }
-.footer-text a{
+.footer-text a, .footer-text span{
     text-decoration: none;
     color: #939393;
     font-size: 15px;
