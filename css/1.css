@@ -108,3 +108,17 @@ hr{
 .footer-text a:hover {
     text-decoration: underline;
 }
+.divulgacao {
+    text-align: left;
+    display: block;
+    color: #9393933b;
+    font-size: 12px;
+}
+.divulgacao a{
+    text-decoration: none;
+    color: #9393933b;
+}
+.divulgacao a:hover{
+    text-decoration: underline;
+    color: #9393937e;
+}
