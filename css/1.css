@@ -4,10 +4,12 @@
 header{
     padding-bottom: 5px;
 }
-.header-title {
+.header-title a {
     color:  gold;
     font-size: 47px;
-    text-align: center; 
+    text-align: center;
+    display: block; 
+    text-decoration: none;
 }
 .header-container{
     display: flex;
@@ -95,14 +97,14 @@ hr{
     text-align: center;
 }
 
-.footer-span{
+.footer-text{
     text-align: center;
 }
-.footer-span a{
+.footer-text a{
     text-decoration: none;
     color: #939393;
     font-size: 15px;
 }
-.footer-span a:hover {
+.footer-text a:hover {
     text-decoration: underline;
 }
