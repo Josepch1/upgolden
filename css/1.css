@@ -74,7 +74,7 @@ hr{
     display:inline;
     text-align: center;    
 }
-#container{
+.container{
     display: flex;
     flex-direction: row;
     align-items: baseline;
