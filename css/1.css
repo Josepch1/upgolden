@@ -80,11 +80,36 @@ hr{
     text-align: center;    
 }
 .container{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 1fr 1fr 1fr;
+}
+@media (max-width: 1300px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+}
+@media (max-width: 350px){
+    .header-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .header-container span{
+        padding: 6px 0;
+    }
+    .header-subtitle-2 {
+        margin: 0;
+    }
 }
 .produto-img {
     max-width: 100%;
