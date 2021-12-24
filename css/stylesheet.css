@@ -1,6 +1,6 @@
-*{
+*   {
     background:black
-}
+}   
 header{
     padding-bottom: 5px;
 }
@@ -12,13 +12,16 @@ header{
     text-decoration: none;
 }
 .header-container{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: 30px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 20px;
+    justify-items: center;
+    justify-content: center;
 }
 .header-subtitle{
     text-align: center;
@@ -53,21 +56,21 @@ header{
         padding-bottom: 20px;
     }
 }
+/*Botoes*/
 .links:hover{
-    border-style: outset;
+    border: 1px solid gold;
     border-color: gold;
-    color: gold;
-    padding: 4px
+    padding: 1px;
+    border-radius: 6px;
 }
 .links{
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+    
 }
-.header-links{
-    padding-bottom: 25px;
-}
+
 hr{
     height: 3px;
     background-color: gold;
@@ -88,8 +91,9 @@ hr{
 }
 .produto-img {
     max-width: 100%;
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
+    border: 1px solid #939393;
 }
 
 .page-title {
